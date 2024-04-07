@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  width: 100dvw;
+  min-height: 100dvh;
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+  }
+
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100dvw;
+    height: 100dvh;
+  }
+}
